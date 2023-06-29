@@ -103,10 +103,10 @@ $postID = get_queried_object_id();
 							?>
 						</a>
 						<br />
-						<a href="<?php echo esc_url( __( 'https://www.anphira.com/kaya-wordpress-theme/', 'kaya' ) ); ?>">
+						<a href="<?php echo esc_url( 'https://www.anphira.com/kaya-wordpress-theme/' ); ?>">
 							<?php 
-							/* translators: %s: Theme Author's name. */
-							printf( esc_html__( 'Theme: Kaya by %s', 'kaya' ), 'Anphira Web Design & Development' );
+							/* translators: 1: Theme name, 2: Theme author. */
+							printf( esc_html__( 'Theme: %1$s by %2$s', 'kaya' ), 'Kaya', 'Anphira Web Design & Development' );
 							?>
 
 							</a>
